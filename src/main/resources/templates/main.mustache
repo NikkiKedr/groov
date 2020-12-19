@@ -1,0 +1,39 @@
+<html>
+<meta http-equiv="Refresh" content="2" />
+<link rel="stylesheet" href="/styles/style.css">
+<body>
+
+<div class="element1">
+
+    <div>ČAS
+        {{#temperatures}}
+            <div>
+                <i>{{date}}</i>
+
+            </div>
+        {{/temperatures}}
+    </div>
+</div>
+<div class="element2">
+    <div>TEPLOTA
+        {{#temperatures}}
+            <div>
+                <i>{{temperature}}</i>
+
+            </div>
+        {{/temperatures}}
+    </div>
+</div>
+<div class="element3">
+    <div>VLHKOST
+        {{#humidities}}
+            <div>
+                <i>{{humidity}}</i>
+
+            </div>
+        {{/humidities}}
+    </div>
+</div>
+
+</body>
+</html>
